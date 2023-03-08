@@ -141,7 +141,7 @@ header {
     .navbar-toggler.active span:last-child { margin-top: -11px; }
 }
 
-.our-offerings ol { padding-left: 300px; }
+.our-offerings ol { list-style-position: outside; list-style-type: decimal; padding-left: 300px; }
 .our-offerings ol li { font-size: 30px; }
 .our-offerings ol li a {
     position: relative;
@@ -175,7 +175,7 @@ header {
     .our-offerings ol { padding-left: 150px; }
 }
 @media(max-width:767px){
-    .our-offerings ol { padding-left: 25px; }
+    .our-offerings ol { padding-left: 20px; }
     .our-offerings ol li,
     .our-offerings ol li a { font-size: 16px; }
     .our-offerings ol li a { padding: 10px 0; }
